@@ -16,9 +16,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
- section {
-     display: flex;
- }
+.section {display: flex;}
 
 .flex {display: flex;}
 
@@ -134,6 +132,27 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 
+.hero {
+    background-image: src="hero.jpg";
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+
+.h1-Hero {
+    position: relative left 30px;
+    text-size-adjust: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.h2-Hero {
+    color: #faa541;
+    text-size-adjust: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
 
 
 
