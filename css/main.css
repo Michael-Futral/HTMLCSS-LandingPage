@@ -53,6 +53,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     background-color: #364147;
 }
 
+
+
 .form-control {
     display: block;
     padding: 6px 12px;
@@ -65,6 +67,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     font-size: 30px;
     color: #a0a0a0;
 }
+
+/* reverse a linked list */
 
 .text-secondary {
     font-size: 30px;
@@ -104,4 +108,32 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     size: 100px 30px;
     padding: ;
 }
+
+.nav-list {
+    padding: 0;
+    width: 575px;
+    margin: 10px;
+}
+
+.profile {
+    margin-left: auto;
+}
+
+.account {
+    text-align: right;
+    padding: 15px;
+    color: #364147;
+    size: 18px;
+}
+
+.profile-pic {
+    size: 60px 60px;
+    descent-override: inherit;
+    border-radius: 100px;
+    max-width: 100%;
+}
+
+
+
+
 
