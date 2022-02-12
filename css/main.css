@@ -149,10 +149,10 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 .hero p {
-    font-size: 21px;
+    letter-spacing: 2px;
     font-weight: 700;
-    word-spacing: 2px;
-    margin: 0 0 0 10px;
+    font-size: 21px;
+    margin: 0 0 10px;
 }
 
 .banner {
@@ -162,6 +162,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     padding: 25px 0;
     width: 250px;
 }
+
+.banner img {width: 250px;}
 
 .banner-text {
     font-size: 30px;
