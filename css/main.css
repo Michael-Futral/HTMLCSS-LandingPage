@@ -220,14 +220,14 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     position: relative;
 }
 
-.full-banner:before {
+.full-banner::before {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
     top: 30px;
     Bottom: 30px;
     left: 50px;
-    right:  50px;
+    right: 50px;
     z-index: 1;
 }
 
