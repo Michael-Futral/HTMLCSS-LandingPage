@@ -9,10 +9,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
 .container {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     max-width: 1170px;
 }
 
@@ -33,10 +30,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 .btn {
     cursor: pointer;
     border: 0;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 6px 12px;
     border-radius: 3px;
     line-height: 1.4;
 }
@@ -75,13 +69,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 .header-nav {
-    border-bottom: 1px;
-    color: #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
 }
 
 .brand {
-    size: 170px 85px;
-    margin-left: 15px;
+    width: 170px;
+    height: 85px;
+    margin-left: -15px;
     margin-right: 60px;
 }
 
@@ -91,23 +85,32 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 .search-box {
-    size: 330px 30px;
+    width: 330px;
+    height: 30px;
     padding: 6px 12px;
-    border: 1px #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 
 .search-button {
     background-color: #a0a0a0;
     color: #ffffff;
-    size: 100px 30px;
+    width: 100px;
+    height: 30px;
+    border: 0;
     padding: 0;
 }
 
-
 .nav-list {
-    padding: 0;
     width: 575px;
-    margin: 10px;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.nav-list li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2px;
 }
 
 .profile {
@@ -118,12 +121,19 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     text-align: right;
     padding: 15px;
     color: #364147;
-    size: 18px;
+    font-size: 18px;
+}
+
+.account a {
+    font-size: 14px;
 }
 
 .profile-pic {
-    size: 60px 60px;
-    descent-override: inherit;
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic img {
     border-radius: 100px;
     max-width: 100%;
 }
