@@ -221,5 +221,33 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     z-index: 1;
 }
 
+.full-banner-image {
+    flex: 0 0 58.333333%;
+    background-image: url("../vista.jpg");
+    background-size: cover;
+    background-position: top center;
+    min-height: 400px;
+}
 
+.full-banner-sidebar {
+    flex: 0 0 41.666667%;
+    background-color: #364147;
+    padding: 30px;
+    color: #ffffff;
+}
 
+.full-banner-sidebar h4 {
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    color: #364147;
+    line-height: 1;
+}
+
+.full-banner-sidebar h4::after {
+    content: "";
+    width: 100px 1px;
+    background-color: #faa541;
+    margin: 20px auto;
+    display: block;
+}
