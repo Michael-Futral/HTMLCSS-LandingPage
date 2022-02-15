@@ -257,3 +257,17 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     font-weight: 700;
     line-height: 1;
 }
+
+.full-banner-sidebar > div:nth-of-type(2) {
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.full-banner-sidebar .btn.btn-default {
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
